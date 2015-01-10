@@ -1,1 +1,0 @@
-start mount.bat /B
