@@ -1,5 +1,5 @@
 # WifiMapDrive
-  If your windows machine uses WiFi (or your ethernet connection takes too long, maybe because it has to go through a series of switches) and you would like to map network drives, e.g. for file shares, this will often fail because Windows' attempt to connect to the shared drive will happen before the WiFi connection has been fully established.
+  If your windows machine uses WiFi (or your ethernet connection takes too long, maybe because it has to go through a series of switches) and you would like to map network drives, e.g. for file shares, this will often fail because Windows' attempt to connect to the shared drive will happen before the connection has been fully established.
   
   If you map a drive, and configure a scheduled task in a particular way to run this batch script (it just calls net use), you'll get connected to your share (which should match what you mapped), although you'll still get a little error popup that says 'unable to connect to share'.
 
